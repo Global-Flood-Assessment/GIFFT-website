@@ -129,7 +129,7 @@ export default {
         <div class="row-margin d-flex flex-row">
           <div>
             <div class="benefit-icon">
-              <img src="./assets/flooded-house%201.png"/>
+              <img src="./assets/flooded-house-1.png"/>
             </div>
             <h3>Flood extent, depth resolution</h3>
             <p>
@@ -140,7 +140,7 @@ export default {
 
           <div style="margin-left: 20px; margin-right: 20px;">
             <div class="benefit-icon">
-              <img src="./assets/mission%201.png"/>
+              <img src="./assets/mission-1.png"/>
             </div>
             <h3>Anticipate flood impacts</h3>
             <p>
@@ -151,7 +151,7 @@ export default {
 
           <div>
             <div class="benefit-icon">
-              <img src="./assets/decision%201.png"/>
+              <img src="./assets/decision-1.png"/>
             </div>
             <h3>Informed response decisions</h3>
             <p>
@@ -171,27 +171,27 @@ export default {
         <div class="row-margin d-flex flex-row">
           <div>
             <div class="partner-logo">
-              <img class="w-100" src="./assets/image%202.png">
+              <img class="w-100" src="./assets/image-2.png">
             </div>
             <h3>University of Alaska Fairbanks</h3>
           </div>
           <div>
             <div class="partner-logo">
-              <img class="w-100" src="./assets/image%203.png">
+              <img class="w-100" src="./assets/image-3.png">
             </div>
-            <h3>University of Alaska Fairbanks</h3>
+            <h3>Marshall Space Flight Center</h3>
           </div>
           <div>
             <div class="partner-logo">
-              <img class="w-100" src="./assets/image%204.png">
+              <img class="w-100" src="./assets/image-4.png">
             </div>
-            <h3>University of Alaska Fairbanks</h3>
+            <h3>Goddard Space Flight Center</h3>
           </div>
           <div>
             <div class="partner-logo">
-              <img class="w-100" src="./assets/image%205.png">
+              <img class="w-100" src="./assets/image-5.png">
             </div>
-            <h3>University of Alaska Fairbanks</h3>
+            <h3>National Oceanic and Atmospheric Administration</h3>
           </div>
         </div>
       </div>
@@ -206,7 +206,7 @@ export default {
                style="width: 250px; height: 300px;padding: 10px;" class="text-center">
             <div class="contributor-avatar d-inline-block">
               <img v-if="contributor.avatarUrl" class="w-100" :src="contributor.avatarUrl">
-              <img v-else class="w-100" src="./assets/Rectangle%207.png">
+              <img v-else class="w-100" src="./assets/Rectangle-7.png">
             </div>
             <h3 class="text-center">{{ contributor.name }}</h3>
             <p class="text-center">{{ contributor.organization }}</p>
@@ -235,7 +235,7 @@ section.section-2 {
 }
 
 section.section-3 {
-  background-image: url("./assets/Rectangle 5.png");
+  background-image: url("assets/Rectangle-5.png");
 }
 
 section.section-1 > div {
