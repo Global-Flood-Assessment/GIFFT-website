@@ -235,7 +235,7 @@ section.section-2 {
 }
 
 section.section-3 {
-  background-image: url("assets/Rectangle-5.png");
+  background-image: url("./assets/Rectangle-5.png");
 }
 
 section.section-1 > div {
