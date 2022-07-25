@@ -18,5 +18,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  assetsInclude: ['**/*.png']
+  build: {
+    assetsInlineLimit: 9999999999
+  }
 })
