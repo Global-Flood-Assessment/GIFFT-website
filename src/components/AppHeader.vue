@@ -5,12 +5,14 @@
     </b-navbar-nav>
 
     <b-navbar-nav class="ml-auto p-2">
-      <b-button size="sm" variant="link">Menu 1</b-button>
-      <b-button size="sm" variant="link">Menu 2</b-button>
-      <b-button size="sm" variant="link">Menu 3</b-button>
-      <b-button size="sm" variant="link">Menu 4</b-button>
-      <b-button size="sm" variant="link">Menu 5</b-button>
-      <b-button size="sm" variant="primary">Button</b-button>
+      <router-link to="/#section-team" v-slot="{navigate}">
+        <b-button size="sm" variant="link" @click="navigate">Team</b-button>
+      </router-link>
+      <router-link to="/#section-presentations-and-publications" v-slot="{navigate}">
+        <b-button size="sm" variant="link" @click="navigate">Presentations and Publication</b-button>
+      </router-link>
+
+      <b-button size="sm" variant="link">Outputs for specific events</b-button>
     </b-navbar-nav>
   </b-navbar>
 </template>

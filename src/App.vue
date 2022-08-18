@@ -38,10 +38,8 @@ export default {
           ‘GIFFT’ to the World 
         </h2>
         <p class="row-margin border-primary" style="border-left: 3px solid; padding-left: 10px;">
-          Funded by the NASA Disasters Program under its Global Initiative for<br/>
-          Flood Forecasting and Alerting (GIFFT), Global Flood Map is the first<br/>
-          automated source for modeled global flood forecast and inundation<br/>
-          information in the world.
+          Funded by the NASA Disasters Program under its Global Initiative for Flood Forecasting and Alerting (GIFFT),
+          Global Flood Map models global flood forecast and inundation information in the world
         </p>
       </div>
     </section>
@@ -50,9 +48,8 @@ export default {
         <h2 class="row-margin h2-sub"> INTRODUCTION </h2>
         <h2 class="row-margin"> What is Global Flood Map? </h2>
         <p class="row-margin">
-          <b>NASA’s Disasters Program</b> and the <b>University of Hawaii’s Pacific Disaster Center (PDC)</b> have
-          partnered to create the <b>first automated source for modeled global flood forecast</b> and inundation
-          information in the world.
+          A product of <b>Model of Models (MoM)</b>, an ensemble model, that integrates hydrologic models along with
+          earth observation data to forecast flood inundation information globally.
         </p>
         <div style="background: rgba(41, 64, 211, 0.05);padding-top: 30px;padding-bottom: 30px;">
           <h3 class="row-margin">
@@ -60,12 +57,10 @@ export default {
             Using DisasterAWARE to provide flood warnings.
           </h3>
           <p class="row-margin">
-            Based on NASA’s advanced model-of-models approach, the new global flood information will reach tens of
-            thousands
-            of disaster management decision makers and humanitarian assistance practitioners <b>through PDC’s
-            DisasterAWARE
-            platform</b> as flood emergencies unfold. <b>DisasterAWARE® will provide flood early warnings</b> and
-            supplemental advanced analytical products to help assess potential impacts. 
+            Based on MoM, the new global flood information will reach tens of thousands of disaster management decision
+            makers and humanitarian assistance practitioners through <b>PDC’s DisasterAWARE platform</b> as flood
+            emergencies unfold. <b>DisasterAWARE® will provide flood early warnings</b> and supplemental advanced
+            analytical products to help assess potential impacts.
           </p>
         </div>
       </div>
@@ -75,11 +70,9 @@ export default {
         <h2 class="row-margin h2-sub"> APPROACH </h2>
         <h2 class="row-margin"> Model-of-models approach </h2>
         <p class="row-margin">
-          Funded by the NASA Disasters Program under its Global Initiative for Flood Forecasting and Alerting (GIFFT),
-          the
-          model-of-models approach combines various flood products from open-source models and Earth Observation data to
-          determine flood severity risk at sub-watershed level daily and globally. In the current version of this model
-          flood outputs from different sources are being leveraged, including:
+          The model-of-models approach combines various flood products from open-source hydrologic models and Earth
+          Observation data to determine flood severity risk at sub-watershed level daily and globally. In the current
+          version of this model, flood outputs are being leveraged, including:
            
         </p>
         <div class="row-margin d-flex flex-row">
@@ -88,8 +81,8 @@ export default {
               <b-icon icon="star-fill"/>
               Forecasting flood severity
             </h3>
-            <p> Global Flood Awareness System (GloFAS) and Global Flood Monitoring System (GFMS) data are being used to
-              forecast flood severity</p>
+            <p>Global Flood Awareness System (GloFAS) and Global Flood Monitoring System (GFMS) data are used to
+              forecast flood severity.</p>
           </div>
           <div class="w-50">
             <h3>
@@ -98,25 +91,24 @@ export default {
             </h3>
             <p>MODIS Flood Products from Dartmouth Flood Observatory (DFO/MODIS) and Visible Infrared Imaging Radiometer
               Suite (VIIRS) data are used to determine flood severity in near real-time based on potential
-              inundation</p>
+              inundation.</p>
           </div>
         </div>
         <div class="row-margin d-flex flex-row" style="margin-bottom: 20px;">
           <div class="w-50" style="margin-right: 20px;">
             <h3>
               <b-icon icon="star-fill"/>
-              Flood severity from changing tropical storms
+              Forecasting flood severity from changing tropical storms
             </h3>
-            <p>The Hurricane Weather Research and Forecasting (HWRF) model allows determining flood severity from
-              rapidly
-              changing tropical storm events. </p>
+            <p>The Hurricane Weather Research and Forecasting (HWRF) model allows forecasting flood severity from
+              rapidly changing tropical storm events.</p>
           </div>
           <div class="w-50">
             <h3>
               <b-icon icon="star-fill"/>
               Trigger alert messages via DisasterAWARE
             </h3>
-            <p> The flood severity is then used to trigger alert messages for high-severity flood events via PDC’s
+            <p>The flood severity is used to trigger alert messages for high-severity flood events via PDC’s
               DisasterAWARE global platform.</p>
           </div>
         </div>
@@ -187,17 +179,11 @@ export default {
             </div>
             <h3>Goddard Space Flight Center</h3>
           </div>
-          <div>
-            <div class="partner-logo">
-              <img class="w-100" src="./assets/image-5.png">
-            </div>
-            <h3>National Oceanic and Atmospheric Administration</h3>
-          </div>
         </div>
       </div>
     </section>
 
-    <section class="section-6">
+    <section class="section-6" id="section-team">
       <div>
         <h2 class="row-margin h2-sub"> TEAMS </h2>
         <h2 class="row-margin">Contributions and team</h2>
