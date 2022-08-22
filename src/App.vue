@@ -112,6 +112,17 @@ export default {
               DisasterAWARE global platform.</p>
           </div>
         </div>
+        <div class="row-margin d-flex flex-row" style="margin-bottom: 20px;">
+          <div class="w-50" style="margin-right: 20px;">
+            <h3>
+              <b-icon icon="star-fill"/>
+              Trigger impact assessment
+            </h3>
+            <p>The flood severity is used to trigger processing of Sentinel 1 (Synthetic Aperture Radar imagery) and
+              Sentinel 2 (optical imagery) as well as population and infrastructure data to assess potential impacts of
+              flood events.</p>
+          </div>
+        </div>
       </div>
     </section>
     <section class="section-4">
