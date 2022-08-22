@@ -13,8 +13,8 @@ export default {
 
         {name: "Jun Wang", organization: "Indiana University", avatarUrl: null},
         {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: null},
-        {name: "Greg Hempe", organization: "PDC/University of Hawaii", avatarUrl: null},
-        {name: "Chris Chiesa", organization: "PDC", avatarUrl: null},
+        {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: null},
+        {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: null},
 
         {name: "Kristy Tiampo", organization: "University of Colorado, Boulder", avatarUrl: null},
         {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: null},
