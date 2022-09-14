@@ -20,8 +20,117 @@ export default {
         {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: null},
         {name: "Charlie Huyck", organization: "ImageCat Inc.", avatarUrl: null},
         {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: null}
+      ],
+      publications: [
+        {
+          title: `Margaret Glasscoe, Douglas Bausch, Prativa Sharma, Jun Wang, ZhiQiang Chen, Molan Zhang, Guy Schumann, Marlon Pierce, Clay Woods, Kristy Tiampo, Ronald Eguchi (2021). Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting In Near Real-Time. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          pdf: "#"
+        },
+        {
+          title: `K. Tiampo, C. Woods, L. Huang, P. Sharma, Z. Chen , B. Kar, D. Bausch, C. Simmons, R. Estrada, M. Willlis, M. Glasscoe (2021) A MACHINE LEARNING APPROACH TO FLOOD DEPTH AND EXTENT DETECTION USING SENTINEL 1A/B SYNTHETIC APERTURE RADAR. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          pdf: "#"
+        },
+        {
+          title: `M.Zhang and Z. Chen (2021) Deep Metric Learning for Damage Detection Using Bitemporal Satellite Images, IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          pdf: "#"
+        },
+        {
+          title: `BANDANA KAR, DOUG BAUSCH, JUN WANG, PRATIVA SHARMA, ZHIQIANG CHEN, GUY SCHUMANN, MARLON PIERCE, KRISTY TIAMPO, RON EGUCHI, MARGARET GLASSCOE (2020). "INTEGRATED MODEL OF MODELS FOR GLOBAL FLOOD ALERTING." WIT Transactions on the Built Environment, v. 194, p. 73-83.`,
+          pdf: "#"
+        },
+        {
+          title: `P Sharma, J Wang, M Zhang, C Woods, B Kar, D Bausch, Z Chen, K Tiampo, M Glasscoe, G Schumann, M Pierce, R Eguchi (2020). "DisasterAWARE–A GLOBAL ALERTING PLATFORM FOR FLOOD EVENTS." ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, v 6, p. 107-113.`,
+          pdf: "#"
+        },
+        {
+          title: `Chen, Z., Glasscoe, M.T., Eguchi, R., Huyck, C., and Kar, Bandana (2020). Roles of Remote Sensing Technologies in Disaster Resilience. Objective Resilience Primer Manual of Practice (ASCE Objective Resilience Committee, editor: Mohammad Ettouney). In Press.`,
+          pdf: "#"
+        },
+        {
+          title: `B. Kar, D. Bausch, J. Wang, P. Sharma, Z. Chen, G. Schumann, M. Pierce, K. Tempo, R. Eguchi, M. Glasscoe (2020). “An Integrated Model of Models for Global Flood Alerting”. 7th International Conference on Flood and Urban Water Management (FRIAR 2020). Valencia, Spain.`,
+          pdf: "#"
+        },
+        {
+          title: `Chen, Z., Glasscoe, M.T., Eguchi, R., Huyck, C., and Kar, Bandana (2020). “Roles of Remote Sensing Technologies in Disaster Resilience.” To appear in Objective Resilience Primer Manual of Practice (ASCE Objective Resilience Committee, editor: Mohammad Ettouney).`,
+          pdf: "#"
+        },
+        {
+          title: `Prativa Sharma, B. Kar, Z. Chen, D. Bausch, J. Wang, G. Schumann, M. Pierce, K. Tempo, R. Eguchi, M. Glasscoe (2020). “MOM- An Integrated Model of Models for Global Flood Alerting and Impact Assessment”. AAG. Denver, CO.`,
+          pdf: "#"
+        }
+      ],
+      presentations: [
+        {
+          title: `K. Bedka and M. Glasscoe (2021) NASA Disasters Program Overview and Response to Africa Floods, UN-SPIDER / ZFL Regional Virtual Expert Meeting for Southern Africa "Space-based Solutions for Disaster Risk Management and Emergency Response"`,
+          pdf: "#"
+        },
+        {
+          title: `Margaret Glasscoe, Douglas Bausch, Prativa Sharma, Jun Wang, ZhiQiang Chen, Molan Zhang, Guy Schumann, Marlon Pierce, Clay Woods, Kristy Tiampo, Ronald Eguchi (2021). Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting In Near Real-Time. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          pdf: "#"
+        },
+        {
+          title: `K. Tiampo, C. Woods, L. Huang, P. Sharma, Z. Chen , B. Kar, D. Bausch, C. Simmons, R. Estrada, M. Willlis, M. Glasscoe (2021) A MACHINE LEARNING APPROACH TO FLOOD DEPTH AND EXTENT DETECTION USING SENTINEL 1A/B SYNTHETIC APERTURE RADAR. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          pdf: "#"
+        },
+        {
+          title: `M.Zhang and Z. Chen (2021) Deep Metric Learning for Damage Detection Using Bitemporal Satellite Images, IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          pdf: "#"
+        },
+        {
+          title: `M.Glasscoe, K. Tiampo, C. Woods, B. Kar, D. Bausch, P. Sharma, M. Zhang, Z. Chen, J. Wang, M. Pierce, G. Schumann, R. Eguchi, 2021, "Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting." American Society of Photogrammetry and Remote Sensing.`,
+          pdf: "#"
+        },
+        {
+          title: `M. Glasscoe, B. Kar, D. Bausch, G. Hempe, C. Chiesa, K. Tiampo, Z. Chen, G. Schumann, R. Eguchi, C. Huyck, M. Pierce, J. Wang. 2020. “Rapid Flood Severity Classification and Alerting for the Spring 2020 Africa Floods: A Case Study.” American Geophysical Union.`,
+          pdf: "#"
+        },
+        {
+          title: `C. Woods, K. Tiampo, M. Glasscoe, M. Pierce, B. Kar, D. Bausch, G. Schumann. 2020. “An Automated Approach to Flood Detection Through a Threshold Based Method and Machine Learning using Sentinel-1A/B SAR Data.”American Geophysical Union.`,
+          pdf: "#"
+        },
+        {
+          title: `S. Ghosh, C. Huyck, R. Eguchi, M. Glasscoe, B. Kar, K. Tiampo, Z. Chen, D. Bausch. 2020. “Earth Observation (EO) Based Critical Infrastructure Exposure Models and Flood Forecasting Techniques for Risk Monitoring and Management for the City of Vadodara, India.” American Geophysical Union.`,
+          pdf: "#"
+        },
+        {
+          title: `Glasscoe et al. (2020) "Advancin Access to Global Flood Modeling and Alerting Using the PDC DisasterAWARE Platform and Remote Sensing Technologies, GFP Virtual Meeting, Flood Forecasting Session.`,
+          pdf: "#"
+        },
+        {
+          title: `Molan Zhang and ZhiQiang Chen (2021). "Deep Metric Learning for Disaster Mapping and Damage Identification in Remote Sensing Images". ASCE Lifeline Conference, 2021. ASCE. Los Angeles, CA.`,
+          pdf: "#"
+        },
+        {
+          title: `Schumann et al. (2020). “Using a Model-of-Models Approach and Remote Sensing Technologies to Improve Flood Disaster Alerting”. EGU 2020.`,
+          pdf: "#"
+        },
+        {
+          title: `Glasscoe et al. (2019) “Advancing Access to Global Flood Modeling and Alerting Using the PDC DisasterAWARE Platform and Remote Sensing Technologies. American Geophysical Union (AGU). San Francisco, CA.`,
+          pdf: "#"
+        },
+        {
+          title: `Prativa Sharma, Molan Zhang, ZhiQiang Chen, and Elaina Sutley (2019). “Deep Learning of Tornado Disaster Scenes Using Unmanned-Aerial Vehicle (UAV) Images”. AGU Fall Meeting. San Francisco.https://agu.confex.com/data/handout/agu/fm19/Paper_592329_handout_19644_0.pdf`,
+          pdf: "#"
+        }
+      ],
+      mediaReleases: [
+        {
+          publisher: "PreventionWeb",
+          title: "NASA AND PACIFIC DISASTER CENTER PARTNER TO DEVELOP GROUND-BREAKING GLOBAL FLOOD EARLY WARNING SYSTEM",
+          link: "https://www.preventionweb.net/news/nasa-and-pacific-disaster-center-partner-develop-ground-breaking-global-flood-early-warning"
+        },
+        {
+          publisher: "PDC | Global",
+          title: "NASA and Pacific Disaster Center partner to develop ground-breaking global flood early warning system",
+          link: "https://www.pdc.org/nasa-pdc-flood-early-warning-system/"
+        },
+        {
+          publisher: "PDC | Global",
+          title: "NASA and Pacific Disaster Center link experts in development of new life-saving technologies",
+          link: "https://www.pdc.org/nasa-pdc-develop-life-saving-technologies/"
+        }
       ]
-    };
+    }
   }
 }
 
@@ -211,6 +320,56 @@ export default {
         </div>
       </div>
     </section>
+
+    <section class="section-7">
+      <div>
+        <h2 class="row-margin h2-sub"> ACHIEVEMENTS </h2>
+        <h2 class="row-margin">Publications</h2>
+        <div class="row-margin d-flex flex-column">
+          <div v-for="(publication, publicationIndex) in publications" :key="publicationIndex">
+            <p><small>{{ publication.title }}
+              <b-link :href="publication.pdf">
+                <b-icon icon="file-earmark-pdf-fill"/>
+              </b-link>
+            </small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-8">
+      <div>
+        <h2 class="row-margin h2-sub"> ACHIEVEMENTS </h2>
+        <h2 class="row-margin">Presentations</h2>
+        <div class="row-margin d-flex flex-column">
+          <div v-for="(presentation, presentationIndex) in presentations" :key="presentationIndex">
+            <p><small>{{ presentation.title }}
+              <b-link :href="presentation.pdf">
+                <b-icon icon="file-earmark-pdf-fill"/>
+              </b-link>
+            </small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-9">
+      <div>
+        <h2 class="row-margin h2-sub"> ACHIEVEMENTS </h2>
+        <h2 class="row-margin">Media Releases</h2>
+        <div class="row-margin d-flex flex-column">
+          <div v-for="(mediaRelease, mediaReleaseIndex) in mediaReleases" :key="mediaReleaseIndex">
+            <p>
+              <strong>{{ mediaRelease.publisher }}</strong>&nbsp;<small>{{ mediaRelease.title }}</small><br/>
+              <b-link :href="mediaRelease.link" class="text-secondary">
+                {{ mediaRelease.link }}
+              </b-link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
@@ -261,6 +420,21 @@ section.section-5 > div {
 }
 
 section.section-6 > div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section.section-7 > div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section.section-8 > div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section.section-9 > div {
   padding-top: 50px;
   padding-bottom: 50px;
 }
