@@ -1,25 +1,37 @@
 <script>
 import AppHeader from "./components/AppHeader.vue"
+import TM_Bausch_Doug from "./assets/team-members/Bausch_Doug.png"
+import TM_Chen_ZQ from "./assets/team-members/Chen_ZQ.png"
+import TM_Chiesa_Chris from "./assets/team-members/Chiesa_Chris.jpg"
+import TM_Eguchi_Ron from "./assets/team-members/Eguchi_Ron.png"
+import TM_Glasscoe_Margaret from "./assets/team-members/Glasscoe_Margaret.jpg"
+import TM_Hampe_Greg from "./assets/team-members/Hampe_Greg.jpg"
+import TM_Huyck_Charlie from "./assets/team-members/Huyck_Charlie.jpg"
+import TM_Kar_Bandana from "./assets/team-members/Kar_Bandana.jpg"
+// import TM_Pierce_Marlon from "./assets/team-members/Pierce_Marlon"
+import TM_Schumann_Guy from "./assets/team-members/Schumann_Guy.jpg"
+import TM_Tiampo_Kristy from "./assets/team-members/Tiampo_Kristy.jpg"
+import TM_Wang_Jun from "./assets/team-members/Wang_Jun.jpg"
 
 export default {
   components: {AppHeader},
   data() {
     return {
       contributors: [
-        {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: "./assets/team-members/Glasscoe_Margaret.jpg"},
-        {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: "./assets/team-members/Bausch_Doug.png"},
-        {name: "Bandana Kar", organization: "Oak Ridge National Laboratory", avatarUrl: "./assets/team-members/Kar_Bandana.jpg"},
+        {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: TM_Glasscoe_Margaret},
+        {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: TM_Bausch_Doug},
+        {name: "Bandana Kar", organization: "Oak Ridge National Laboratory", avatarUrl: TM_Kar_Bandana},
         {name: "Prativa Sharma", organization: "University of Missouri-Kansas City", avatarUrl: null},
 
-        {name: "Jun Wang", organization: "Indiana University", avatarUrl: "./assets/team-members/Wang_Jun.jpg"},
-        {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: "./assets/team-members/Schumann_Guy.jpg"},
-        {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: "./assets/team-members/Hampe_Greg.jpg"},
-        {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: "./assets/team-members/Chiesa_Chris.jpg"},
+        {name: "Jun Wang", organization: "Indiana University", avatarUrl: TM_Wang_Jun},
+        {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: TM_Schumann_Guy},
+        {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: TM_Hampe_Greg},
+        {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: TM_Chiesa_Chris},
 
-        {name: "Kristy Tiampo", organization: "University of Colorado, Boulder", avatarUrl: "./assets/team-members/Tiampo_Kristy.jpg"},
-        {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: "./assets/team-members/Chen_ZQ.png"},
-        {name: "Charlie Huyck", organization: "ImageCat Inc.", avatarUrl: "./assets/team-members/Huyck_Charlie.jpg"},
-        {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: "./assets/team-members/Eguchi_Ron.png"}
+        {name: "Kristy Tiampo", organization: "University of Colorado, Boulder", avatarUrl: TM_Tiampo_Kristy},
+        {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: TM_Chen_ZQ},
+        {name: "Charlie Huyck", organization: "ImageCat Inc.", avatarUrl: TM_Huyck_Charlie},
+        {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: TM_Eguchi_Ron}
       ],
       publications: [
         {
