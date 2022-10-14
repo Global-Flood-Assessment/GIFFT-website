@@ -6,20 +6,20 @@ export default {
   data() {
     return {
       contributors: [
-        {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: null},
-        {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: null},
-        {name: "Bandana Kar", organization: "Oak Ridge National Laboratory", avatarUrl: null},
+        {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: "./assets/team-members/Glasscoe_Margaret.jpg"},
+        {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: "./assets/team-members/Bausch_Doug.png"},
+        {name: "Bandana Kar", organization: "Oak Ridge National Laboratory", avatarUrl: "./assets/team-members/Kar_Bandana.jpg"},
         {name: "Prativa Sharma", organization: "University of Missouri-Kansas City", avatarUrl: null},
 
-        {name: "Jun Wang", organization: "Indiana University", avatarUrl: null},
-        {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: null},
-        {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: null},
-        {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: null},
+        {name: "Jun Wang", organization: "Indiana University", avatarUrl: "./assets/team-members/Wang_Jun.jpg"},
+        {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: "./assets/team-members/Schumann_Guy.jpg"},
+        {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: "./assets/team-members/Hampe_Greg.jpg"},
+        {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: "./assets/team-members/Chiesa_Chris.jpg"},
 
-        {name: "Kristy Tiampo", organization: "University of Colorado, Boulder", avatarUrl: null},
-        {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: null},
-        {name: "Charlie Huyck", organization: "ImageCat Inc.", avatarUrl: null},
-        {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: null}
+        {name: "Kristy Tiampo", organization: "University of Colorado, Boulder", avatarUrl: "./assets/team-members/Tiampo_Kristy.jpg"},
+        {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: "./assets/team-members/Chen_ZQ.png"},
+        {name: "Charlie Huyck", organization: "ImageCat Inc.", avatarUrl: "./assets/team-members/Huyck_Charlie.jpg"},
+        {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: "./assets/team-members/Eguchi_Ron.png"}
       ],
       publications: [
         {
