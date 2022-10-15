@@ -43,93 +43,53 @@ export default {
       ],
       publications: [
         {
-          title: `Margaret Glasscoe, Douglas Bausch, Prativa Sharma, Jun Wang, ZhiQiang Chen, Molan Zhang, Guy Schumann, Marlon Pierce, Clay Woods, Kristy Tiampo, Ronald Eguchi (2021). Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting In Near Real-Time. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          title: `Kar, B., Sharma, P., Chen, Z., Wang, J., Bausch, D., Schumann, G., Pierce, M., Eguchi, R.,Glasscoe, M. An ensemble approach to global flood severity forecasting and alerting in near real-time, Proceedings, International Society for Photogrammetry and Remote Sensing Congress, 2022.`,
           pdf: "#"
         },
         {
-          title: `K. Tiampo, C. Woods, L. Huang, P. Sharma, Z. Chen , B. Kar, D. Bausch, C. Simmons, R. Estrada, M. Willlis, M. Glasscoe (2021) A MACHINE LEARNING APPROACH TO FLOOD DEPTH AND EXTENT DETECTION USING SENTINEL 1A/B SYNTHETIC APERTURE RADAR. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          title: `Andrew Kruczkiewicz, Fabio Cian, Irene Monasterolo, Giuliano Di Baldassarre, Astrid Caldas, Moriah Royz, Margaret Glasscoe, Nicola Ranger and Maarten van Aalst, 2022,  Multiform flood risk in a rapidly changing world: what we do not do, what we should and why it matters, Environ. Res. Lett. 17 081001`,
           pdf: "#"
         },
         {
-          title: `M.Zhang and Z. Chen (2021) Deep Metric Learning for Damage Detection Using Bitemporal Satellite Images, IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
-          pdf: "#"
-        },
-        {
-          title: `BANDANA KAR, DOUG BAUSCH, JUN WANG, PRATIVA SHARMA, ZHIQIANG CHEN, GUY SCHUMANN, MARLON PIERCE, KRISTY TIAMPO, RON EGUCHI, MARGARET GLASSCOE (2020). "INTEGRATED MODEL OF MODELS FOR GLOBAL FLOOD ALERTING." WIT Transactions on the Built Environment, v. 194, p. 73-83.`,
-          pdf: "#"
-        },
-        {
-          title: `P Sharma, J Wang, M Zhang, C Woods, B Kar, D Bausch, Z Chen, K Tiampo, M Glasscoe, G Schumann, M Pierce, R Eguchi (2020). "DisasterAWARE–A GLOBAL ALERTING PLATFORM FOR FLOOD EVENTS." ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, v 6, p. 107-113.`,
-          pdf: "#"
-        },
-        {
-          title: `Chen, Z., Glasscoe, M.T., Eguchi, R., Huyck, C., and Kar, Bandana (2020). Roles of Remote Sensing Technologies in Disaster Resilience. Objective Resilience Primer Manual of Practice (ASCE Objective Resilience Committee, editor: Mohammad Ettouney). In Press.`,
-          pdf: "#"
-        },
-        {
-          title: `B. Kar, D. Bausch, J. Wang, P. Sharma, Z. Chen, G. Schumann, M. Pierce, K. Tempo, R. Eguchi, M. Glasscoe (2020). “An Integrated Model of Models for Global Flood Alerting”. 7th International Conference on Flood and Urban Water Management (FRIAR 2020). Valencia, Spain.`,
-          pdf: "#"
-        },
-        {
-          title: `Chen, Z., Glasscoe, M.T., Eguchi, R., Huyck, C., and Kar, Bandana (2020). “Roles of Remote Sensing Technologies in Disaster Resilience.” To appear in Objective Resilience Primer Manual of Practice (ASCE Objective Resilience Committee, editor: Mohammad Ettouney).`,
-          pdf: "#"
-        },
-        {
-          title: `Prativa Sharma, B. Kar, Z. Chen, D. Bausch, J. Wang, G. Schumann, M. Pierce, K. Tempo, R. Eguchi, M. Glasscoe (2020). “MOM- An Integrated Model of Models for Global Flood Alerting and Impact Assessment”. AAG. Denver, CO.`,
+          title: `Tiampo, K.F., Huang, L., Simmons, C., Woods, C., Glasscoe, M.T. Detection of flood extent using Sentinel-1A/B synthetic aperture radar: An application for Hurricane Harvey, Houston, TX, Remote Sensing, 14, 2261, doi:10.3390/rs14092261, 2022.`,
           pdf: "#"
         }
       ],
       presentations: [
         {
-          title: `K. Bedka and M. Glasscoe (2021) NASA Disasters Program Overview and Response to Africa Floods, UN-SPIDER / ZFL Regional Virtual Expert Meeting for Southern Africa "Space-based Solutions for Disaster Risk Management and Emergency Response"`,
+          title: `Glasscoe, Margaret, Kar, Bandana, Meyer, Franz,  Tiampo, Kristy, Huyck, Charles,  Chiesa, Chris, Hampe, Greg,   Osmanoglu, Batuhan,  Schultz, Lori. 2021, Dissemination of Global Surface Water Mapping from SAR and Optical Data to Global Stakeholders, American Geophysical Union Fall Meeting.`,
           pdf: "#"
         },
         {
-          title: `Margaret Glasscoe, Douglas Bausch, Prativa Sharma, Jun Wang, ZhiQiang Chen, Molan Zhang, Guy Schumann, Marlon Pierce, Clay Woods, Kristy Tiampo, Ronald Eguchi (2021). Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting In Near Real-Time. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          title: `Ghosh, Shubharoop , Glasscoe, Margaret , Kar, Bandana, Tiampo, Kristy, Huyck, Charles, Hampe, Greg ;, and  Amyx, Paul , 2021, A framework for flood detection and alerting for Vadodara to mitigate impacts on critical infrastructure and reduce economic losses, American Geophysical Union Fall Meeting`,
           pdf: "#"
         },
         {
-          title: `K. Tiampo, C. Woods, L. Huang, P. Sharma, Z. Chen , B. Kar, D. Bausch, C. Simmons, R. Estrada, M. Willlis, M. Glasscoe (2021) A MACHINE LEARNING APPROACH TO FLOOD DEPTH AND EXTENT DETECTION USING SENTINEL 1A/B SYNTHETIC APERTURE RADAR. IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          title: `Tiampo, K., Woods, C., Huang, L., Sharma, P., Chen, Z., Kar, B., Bausch, D., Simmons, C., Willis, M., Glasscoe, M. Advanced Flood Extent Detection Algorithms Applied to Sentinel 1A/B Synthetic Aperture Radar Data, invited speaker, Western & ICLR Multi-hazard Risk and Resilience (HRR) Workshop, Nov. 2021.`,
           pdf: "#"
         },
         {
-          title: `M.Zhang and Z. Chen (2021) Deep Metric Learning for Damage Detection Using Bitemporal Satellite Images, IGARSS International Geosciences and Remote Sensing Symposium, Brussels, Belgium.`,
+          title: `Tiampo, K., Woods, C., Huang, L., Sharma, P., Chen, Z., Kar, B., Bausch, D., Simmons, C., Estrada, R., Willis, M., Glasscoe, M. A Machine Learning Approach to Flood Depth and Extent Detection Using Sentinel 1A/B Synthetic Aperture Radar, oral presentation, IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2021), July 2021.`,
           pdf: "#"
         },
         {
-          title: `M.Glasscoe, K. Tiampo, C. Woods, B. Kar, D. Bausch, P. Sharma, M. Zhang, Z. Chen, J. Wang, M. Pierce, G. Schumann, R. Eguchi, 2021, "Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting." American Society of Photogrammetry and Remote Sensing.`,
+          title: `Glasscoe, M., Tiampo, K., Woods, C., Kar, B., Bausch, D., Sharma, P., Zhang, M., Chen, Z., Wang, J., Pierce, M., Schumann, G., Eguchi, R., Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting, ASPRS – IMAGING AND GEOSPATIAL SOCIETY Annual meeting (virtual), 2021.`,
           pdf: "#"
         },
         {
-          title: `M. Glasscoe, B. Kar, D. Bausch, G. Hempe, C. Chiesa, K. Tiampo, Z. Chen, G. Schumann, R. Eguchi, C. Huyck, M. Pierce, J. Wang. 2020. “Rapid Flood Severity Classification and Alerting for the Spring 2020 Africa Floods: A Case Study.” American Geophysical Union.`,
+          title: `Kar, B., Glasscoe, M., Bausch, D., Sharma, P., Wang, J., Schumann, G., Tiampo, K., Chen, Z., Eguchi, R., Pierce, M., 2022, AN ENSEMBLE APPROACH TO GLOBAL FLOOD SEVERITY FORECASTING AND ALERTING IN NEAR REAL-TIME, ISPRS Congress`,
           pdf: "#"
         },
         {
-          title: `C. Woods, K. Tiampo, M. Glasscoe, M. Pierce, B. Kar, D. Bausch, G. Schumann. 2020. “An Automated Approach to Flood Detection Through a Threshold Based Method and Machine Learning using Sentinel-1A/B SAR Data.”American Geophysical Union.`,
+          title: `Ghosh, S., Glasscoe, M., Kar, B., Tiampo, K., and Huyck, C., 2022, Earth observation (EO) based approaches for developing flood risk products to support mitigation and response activities: A demonstration study for Vadodara, India, IGARSS.`,
           pdf: "#"
         },
         {
-          title: `S. Ghosh, C. Huyck, R. Eguchi, M. Glasscoe, B. Kar, K. Tiampo, Z. Chen, D. Bausch. 2020. “Earth Observation (EO) Based Critical Infrastructure Exposure Models and Flood Forecasting Techniques for Risk Monitoring and Management for the City of Vadodara, India.” American Geophysical Union.`,
+          title: `Kristy Tiampo, Clay Woods, Lingcao Huang, Prativa Sharma, ZhiQiang Chen, Bandana Kar, Doug Bausch, Conor Simmons, Michael Willis, Margaret Glasscoe, 2021. "Advanced Flood Extent Detection Algorithms Applied to Sentinel 1A/B Synthetic Aperture Radar Data." Western-ICLR Multi-hazard Risk and Resilience Workshop, Nov 2021.`,
           pdf: "#"
         },
         {
-          title: `Glasscoe et al. (2020) "Advancin Access to Global Flood Modeling and Alerting Using the PDC DisasterAWARE Platform and Remote Sensing Technologies, GFP Virtual Meeting, Flood Forecasting Session.`,
-          pdf: "#"
-        },
-        {
-          title: `Molan Zhang and ZhiQiang Chen (2021). "Deep Metric Learning for Disaster Mapping and Damage Identification in Remote Sensing Images". ASCE Lifeline Conference, 2021. ASCE. Los Angeles, CA.`,
-          pdf: "#"
-        },
-        {
-          title: `Schumann et al. (2020). “Using a Model-of-Models Approach and Remote Sensing Technologies to Improve Flood Disaster Alerting”. EGU 2020.`,
-          pdf: "#"
-        },
-        {
-          title: `Glasscoe et al. (2019) “Advancing Access to Global Flood Modeling and Alerting Using the PDC DisasterAWARE Platform and Remote Sensing Technologies. American Geophysical Union (AGU). San Francisco, CA.`,
-          pdf: "#"
-        },
-        {
-          title: `Prativa Sharma, Molan Zhang, ZhiQiang Chen, and Elaina Sutley (2019). “Deep Learning of Tornado Disaster Scenes Using Unmanned-Aerial Vehicle (UAV) Images”. AGU Fall Meeting. San Francisco.https://agu.confex.com/data/handout/agu/fm19/Paper_592329_handout_19644_0.pdf`,
+          title: `Molan Zhang and ZhiQiang Chen, “Urban Road Network and Flood Damage Assessment using Optical Remote Sensing Data and Deep Metric Learning”. Abstract submit to 2022 DSPS (1st International Data Science for Pavements Symposium)`,
           pdf: "#"
         }
       ],
