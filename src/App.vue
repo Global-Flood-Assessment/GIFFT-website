@@ -8,7 +8,8 @@ import TM_Glasscoe_Margaret from "./assets/team-members/Glasscoe_Margaret.jpg"
 import TM_Hampe_Greg from "./assets/team-members/Hampe_Greg.jpg"
 import TM_Huyck_Charlie from "./assets/team-members/Huyck_Charlie.jpg"
 import TM_Kar_Bandana from "./assets/team-members/Kar_Bandana.jpg"
-// import TM_Pierce_Marlon from "./assets/team-members/Pierce_Marlon"
+import TM_Pierce_Marlon from "./assets/team-members/Pierce_Marlon.png"
+import TM_Dinuka_DeSilva from "./assets/team-members/dinuka_desilva.jpeg"
 import TM_Schumann_Guy from "./assets/team-members/Schumann_Guy.jpg"
 import TM_Tiampo_Kristy from "./assets/team-members/Tiampo_Kristy.jpg"
 import TM_Wang_Jun from "./assets/team-members/Wang_Jun.jpg"
@@ -21,7 +22,7 @@ export default {
         {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: TM_Glasscoe_Margaret},
         {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: TM_Bausch_Doug},
         {name: "Bandana Kar", organization: "Oak Ridge National Laboratory", avatarUrl: TM_Kar_Bandana},
-        {name: "Prativa Sharma", organization: "University of Missouri-Kansas City", avatarUrl: null},
+        {name: "Marlon Pierce", organization: "Indiana University", avatarUrl: TM_Pierce_Marlon},
 
         {name: "Jun Wang", organization: "Indiana University", avatarUrl: TM_Wang_Jun},
         {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: TM_Schumann_Guy},
@@ -32,6 +33,13 @@ export default {
         {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: TM_Chen_ZQ},
         {name: "Charlie Huyck", organization: "ImageCat Inc.", avatarUrl: TM_Huyck_Charlie},
         {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: TM_Eguchi_Ron}
+      ],
+      students: [
+        {name: "Dinuka De Silva", organization: "Indiana University", avatarUrl: TM_Dinuka_DeSilva},
+        {name: "Molan", organization: "", avatarUrl: null}
+      ],
+      alumnus: [
+        {name: "Prativa Sharma", organization: "", avatarUrl: null}
       ],
       publications: [
         {
@@ -317,10 +325,38 @@ export default {
 
     <section class="section-6" id="section-team">
       <div>
-        <h2 class="row-margin h2-sub"> TEAMS </h2>
+        <h2 class="row-margin h2-sub"> TEAM </h2>
         <h2 class="row-margin">Contributions and team</h2>
         <div class="row-margin d-flex flex-row flex-wrap">
           <div v-for="(contributor, contributorIndex) in contributors" :key="contributorIndex"
+               style="width: 250px; height: 300px;padding: 10px;" class="text-center">
+            <div class="contributor-avatar d-inline-block">
+              <img v-if="contributor.avatarUrl" class="w-100" :src="contributor.avatarUrl">
+              <img v-else class="w-100" src="./assets/Rectangle-7.png">
+            </div>
+            <h3 class="text-center">{{ contributor.name }}</h3>
+            <p class="text-center">{{ contributor.organization }}</p>
+          </div>
+        </div>
+
+
+        <h2 class="row-margin">Student</h2>
+        <div class="row-margin d-flex flex-row flex-wrap">
+          <div v-for="(contributor, contributorIndex) in students" :key="contributorIndex"
+               style="width: 250px; height: 300px;padding: 10px;" class="text-center">
+            <div class="contributor-avatar d-inline-block">
+              <img v-if="contributor.avatarUrl" class="w-100" :src="contributor.avatarUrl">
+              <img v-else class="w-100" src="./assets/Rectangle-7.png">
+            </div>
+            <h3 class="text-center">{{ contributor.name }}</h3>
+            <p class="text-center">{{ contributor.organization }}</p>
+          </div>
+        </div>
+
+
+        <h2 class="row-margin">Alumnus</h2>
+        <div class="row-margin d-flex flex-row flex-wrap">
+          <div v-for="(contributor, contributorIndex) in alumnus" :key="contributorIndex"
                style="width: 250px; height: 300px;padding: 10px;" class="text-center">
             <div class="contributor-avatar d-inline-block">
               <img v-if="contributor.avatarUrl" class="w-100" :src="contributor.avatarUrl">
