@@ -44,53 +44,147 @@ export default {
       publications: [
         {
           title: `Kar, B., Sharma, P., Chen, Z., Wang, J., Bausch, D., Schumann, G., Pierce, M., Eguchi, R.,Glasscoe, M. An ensemble approach to global flood severity forecasting and alerting in near real-time, Proceedings, International Society for Photogrammetry and Remote Sensing Congress, 2022.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2022"
         },
         {
           title: `Andrew Kruczkiewicz, Fabio Cian, Irene Monasterolo, Giuliano Di Baldassarre, Astrid Caldas, Moriah Royz, Margaret Glasscoe, Nicola Ranger and Maarten van Aalst, 2022,  Multiform flood risk in a rapidly changing world: what we do not do, what we should and why it matters, Environ. Res. Lett. 17 081001`,
-          pdf: "#"
+          pdf: "#",
+          year: "2022"
         },
         {
           title: `Tiampo, K.F., Huang, L., Simmons, C., Woods, C., Glasscoe, M.T. Detection of flood extent using Sentinel-1A/B synthetic aperture radar: An application for Hurricane Harvey, Houston, TX, Remote Sensing, 14, 2261, doi:10.3390/rs14092261, 2022.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2022"
+        },
+        {
+          title: `Kar, B. and Schumann, G. (invited commentary paper). 2022. “Reproducibility and Replicability of Flood Models”, Hydrological Processes Today, 36(9). https://doi.org/10.1002/hyp.14666`,
+          pdf: "#",
+          year: "2022"
+        },
+        {
+          title: `Ghosh, S., Glasscoe, M., Kar, B., Tiampo, K., Green, D., Mendoza, M. and Hyuck, C., 2021. “Detection and Alert for the City of Vadodara: A Space-based Flood Approach for Mitigating Impacts on Critical Infrastructures and Reducing Economic Losses”, Know Disasters, July-August 2021.`,
+          pdf: "#",
+          year: "2021"
+        },
+        {
+          title: `Sharma, P., Wang, J., Zhang, M., Woods, C., Kar, B., Bausch, D., Chen, Z., Tiampo, K., Glasscoe, M., Schumann, G., Pierce, M. and Eguchi, R. 2020. “DisasterAWARE-A Global Alerting Platform for Flood Events”, ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences, VI-3/W1-2020, 107-113. https://doi.org/10.5194/isprs-annals-VI-3-W1-2020-107-2020`,
+          pdf: "#",
+          year: "2020"
+        },
+        {
+          title: `Sharma, P, Kar, B., Wang, J. and Bausch, D. 2021. “A Machine Learning Approach to Flood Severity Classification and Alerting” In Proceedings of 4th ACM SIGSPATIAL International Workshop on Advancements in Resilient and Intelligent Cities. https://doi.org/10.1145/3486626.3493432`,
+          pdf: "#",
+          year: "2021"
+        },
+        {
+          title: `K. Tiampo, C. Woods, L. Huang, P. Sharma, Z. Chen, B. Kar, D. Bausch, C. Simmons, R. Estrada, M. Willis, M. Glasscoe. 2021. “A Machine Learning Approach to Flood Depth and Extent Detection Using Sentinel 1A/B Synthetic Aperture Radar”, In Proceedings of the 2021 IGARSS.`,
+          pdf: "#",
+          year: "2021"
+        },
+        {
+          title: `Kar, B., Bausch, B., Wang, J., Sharma, P., Chen, Z., Schumann, G., Pierce, M., Tiampo, K., Eguchi, R. and Glasscoe, M. 2020. “An Integrated Model of Models for Global Flood Alerting”, WIT Transactions on the Built Environment, 194: 73-86. ISSN# 1743-3509, WIT Press.`,
+          pdf: "#",
+          year: "2020"
         }
       ],
       presentations: [
         {
           title: `Glasscoe, Margaret, Kar, Bandana, Meyer, Franz,  Tiampo, Kristy, Huyck, Charles,  Chiesa, Chris, Hampe, Greg,   Osmanoglu, Batuhan,  Schultz, Lori. 2021, Dissemination of Global Surface Water Mapping from SAR and Optical Data to Global Stakeholders, American Geophysical Union Fall Meeting.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2021"
         },
         {
           title: `Ghosh, Shubharoop , Glasscoe, Margaret , Kar, Bandana, Tiampo, Kristy, Huyck, Charles, Hampe, Greg ;, and  Amyx, Paul , 2021, A framework for flood detection and alerting for Vadodara to mitigate impacts on critical infrastructure and reduce economic losses, American Geophysical Union Fall Meeting`,
-          pdf: "#"
-        },
-        {
-          title: `Tiampo, K., Woods, C., Huang, L., Sharma, P., Chen, Z., Kar, B., Bausch, D., Simmons, C., Willis, M., Glasscoe, M. Advanced Flood Extent Detection Algorithms Applied to Sentinel 1A/B Synthetic Aperture Radar Data, invited speaker, Western & ICLR Multi-hazard Risk and Resilience (HRR) Workshop, Nov. 2021.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2021"
         },
         {
           title: `Tiampo, K., Woods, C., Huang, L., Sharma, P., Chen, Z., Kar, B., Bausch, D., Simmons, C., Estrada, R., Willis, M., Glasscoe, M. A Machine Learning Approach to Flood Depth and Extent Detection Using Sentinel 1A/B Synthetic Aperture Radar, oral presentation, IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2021), July 2021.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2021"
         },
         {
           title: `Glasscoe, M., Tiampo, K., Woods, C., Kar, B., Bausch, D., Sharma, P., Zhang, M., Chen, Z., Wang, J., Pierce, M., Schumann, G., Eguchi, R., Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting, ASPRS – IMAGING AND GEOSPATIAL SOCIETY Annual meeting (virtual), 2021.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2021"
         },
         {
           title: `Kar, B., Glasscoe, M., Bausch, D., Sharma, P., Wang, J., Schumann, G., Tiampo, K., Chen, Z., Eguchi, R., Pierce, M., 2022, AN ENSEMBLE APPROACH TO GLOBAL FLOOD SEVERITY FORECASTING AND ALERTING IN NEAR REAL-TIME, ISPRS Congress`,
-          pdf: "#"
+          pdf: "#",
+          year: "2022"
         },
         {
           title: `Ghosh, S., Glasscoe, M., Kar, B., Tiampo, K., and Huyck, C., 2022, Earth observation (EO) based approaches for developing flood risk products to support mitigation and response activities: A demonstration study for Vadodara, India, IGARSS.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2022"
         },
         {
           title: `Kristy Tiampo, Clay Woods, Lingcao Huang, Prativa Sharma, ZhiQiang Chen, Bandana Kar, Doug Bausch, Conor Simmons, Michael Willis, Margaret Glasscoe, 2021. "Advanced Flood Extent Detection Algorithms Applied to Sentinel 1A/B Synthetic Aperture Radar Data." Western-ICLR Multi-hazard Risk and Resilience Workshop, Nov 2021.`,
-          pdf: "#"
+          pdf: "#",
+          year: "2021"
         },
         {
           title: `Molan Zhang and ZhiQiang Chen, “Urban Road Network and Flood Damage Assessment using Optical Remote Sensing Data and Deep Metric Learning”. Abstract submit to 2022 DSPS (1st International Data Science for Pavements Symposium)`,
-          pdf: "#"
+          pdf: "#",
+          year: "2022"
+        },
+        {
+          title: `Chen, Z., Zhang, M., Glasscoe, M., Tiampo, M. and Kar, B.. 2022. “Resilience Assessment of Urban Road Network with Flood Damage Using Remote Sensing Data,” AGU, Chicago, IL.`,
+          pdf: "#",
+          year: "2022"
+        },
+        {
+          title: `Schumann, G., Glasscoe, M. and Kar, B. 2022. “Global Satellite-based Flood Monitoring Post-MODIS”, LANCE UWG (https://wiki.earthdata.nasa.gov/display/LANCE/LANCE+UWG%3A+3-4+May+2022).`,
+          pdf: "#",
+          year: "2022"
+        },
+        {
+          title: `Ghosh, S., Glasscoe, M., Kar, B., Tiampo, K., Huyck, C., Amyx, P. and Hempe, G. 2022. “Stakeholder Engagement to Disseminate Flood Severity, inundation, and Critical Infrastructure Exposure Information for Mitigation”, ASPRS.`,
+          pdf: "#",
+          year: "2022"
+        },
+        {
+          title: `Sharma, P., Kar, B., Wang J. and Bausch, D.. 2021. “A Machine Learning Approach to Flood Severity Classification and Alerting”, 4th ACM SIGSPATIAL International Workshop on Advancements in Resilient and Intelligent Cities.`,
+          pdf: "#",
+          year: "2021"
+        },
+        {
+          title: `Glasscoe, M., Tiampo, K., Woods, C., Kar, B., Bausch, D., Sharma, P., Zhang, M., Chen, Z., Wang, J., Pierce, M., Schumann, G. and Eguchi. R., 2021 . “Integrating Hydrologic Models and Earth Observation Data for Global Flood Forecasting and Alerting”, American Society of Photogrammetry and Remote Sensing Annul Conference (ASPRS).`,
+          pdf: "#",
+          year: "2021"
+        },
+        {
+          title: `Sharma, P, Zhang, M., Wang, J., Wods, C., Kar, B., Chen, Z., Tiampo, K., Schumann, G., Pierce, M. and Eguchi R. 2020. “DisasterAWARE-A Global Alerting Platform for Flood Events”, GI4DM.`,
+          pdf: "#",
+          year: "2020"
+        },
+        {
+          title: `Glasscoe, M., Kar., B., Bausch, D., Hampe, G., Chisea, C., Tiampo, K., Chen, Z., Schumann, G., Eguchi, R., Huyck, C., Pierce, M. and Wang, J. 2020. “Rapid Flood Severity Classification and Alerting for the Spring 2020 Africa Floods: A Case Study”, AGU.`,
+          pdf: "#",
+          year: "2020"
+        },
+        {
+          title: `Kar, B., Bausch, D., Wang, J., Sharma, P., Chen, Z., Schumann, G., Pierce, M., Tiampo, K., Eguchi, R. and Glasscoe, M. 2020. “An Integrated Model of Models for Global Flood Alerting”, 7th International Conference on Flood and Urban Water Management (FRIAR 2020).`,
+          pdf: "#",
+          year: "2020"
+        },
+        {
+          title: `Schumann, G., Glasscoe, M., Bausch, D., Pierce, M., Wang, J. Chen, Z., Eguchi, R., Huyck, C., Tiampo, K. and Kar, B. 2020. “Using a Model-of-Models Approach and Remote Sensing Technologies to Improve Flood Disaster Alerting”, EGU General Assembly 2020, Virtual, https://doi.org/10.5194/egusphere-egu2020-13113.`,
+          pdf: "#",
+          year: "2020"
+        }
+      ],
+      posters: [
+        {
+          title: `Ghosh, S., Huyck, C., Eguchi, R., Glasscoe, M., Kar, B., Tiampo, K., Chen, Z. and Bausch, D. 2020. “Earth Observation (EO) Based Critical Infrastructure Exposure Models and Flood Forecasting Techniques for Risk Monitoring and Management for the City of Vadodara, India”, AGU.`,
+          pdf: "#",
+          year: "2020"
+        },
+        {
+          title: `Glasscoe, M., Bausch, D., Tiampo, K., Eguchi, R., Pierce, M., Chen, Z., Kar, B. and Schumann, G. 2019. “Advancing Access to Global Flood Modeling and Alerting Using the PDC DisasterAWARE Platform and Remote Sensing Technologies”, AGU. San Francisco, CA.`,
+          pdf: "#",
+          year: "2019"
         }
       ],
       mediaReleases: [
@@ -286,7 +380,7 @@ export default {
     <section class="section-6" id="section-team">
       <div>
         <h2 class="row-margin h2-sub"> TEAM </h2>
-        <h2 class="row-margin">Contributions and team</h2>
+        <h2 class="row-margin">Contributors</h2>
         <div class="row-margin d-flex flex-row flex-wrap">
           <div v-for="(contributor, contributorIndex) in contributors" :key="contributorIndex"
                style="width: 250px; height: 300px;padding: 10px;" class="text-center">
@@ -300,7 +394,8 @@ export default {
         </div>
 
 
-        <h2 class="row-margin">Student</h2>
+        <h2 class="row-margin h2-sub"> TEAM </h2>
+        <h2 class="row-margin">Students</h2>
         <div class="row-margin d-flex flex-row flex-wrap">
           <div v-for="(contributor, contributorIndex) in students" :key="contributorIndex"
                style="width: 250px; height: 300px;padding: 10px;" class="text-center">
@@ -314,6 +409,7 @@ export default {
         </div>
 
 
+        <h2 class="row-margin h2-sub"> TEAM </h2>
         <h2 class="row-margin">Alumnus</h2>
         <div class="row-margin d-flex flex-row flex-wrap">
           <div v-for="(contributor, contributorIndex) in alumnus" :key="contributorIndex"
@@ -361,7 +457,24 @@ export default {
       </div>
     </section>
 
+
     <section class="section-9">
+      <div>
+        <h2 class="row-margin h2-sub"> ACHIEVEMENTS </h2>
+        <h2 class="row-margin">Posters</h2>
+        <div class="row-margin d-flex flex-column">
+          <div v-for="(poster, posterIndex) in posters" :key="posterIndex">
+            <p><small>{{ poster.title }}
+              <b-link :href="poster.pdf">
+                <b-icon icon="file-earmark-pdf-fill"/>
+              </b-link>
+            </small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-10">
       <div>
         <h2 class="row-margin h2-sub"> ACHIEVEMENTS </h2>
         <h2 class="row-margin">Media Releases</h2>
