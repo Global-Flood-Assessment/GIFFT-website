@@ -5,10 +5,10 @@
     </b-navbar-nav>
 
     <b-navbar-nav class="ml-auto p-2">
-      <router-link to="/#section-team" v-slot="{navigate}">
+      <router-link to="#section-team" v-slot="{navigate}">
         <b-button size="sm" variant="link" @click="navigate">Team</b-button>
       </router-link>
-      <router-link to="/#section-presentations-and-publications" v-slot="{navigate}">
+      <router-link to="#section-presentations-and-publications" v-slot="{navigate}">
         <b-button size="sm" variant="link" @click="navigate">Presentations and Publication</b-button>
       </router-link>
 

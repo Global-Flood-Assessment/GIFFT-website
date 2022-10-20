@@ -329,7 +329,7 @@ export default {
       </div>
     </section>
 
-    <section class="section-7">
+    <section class="section-7" id="section-presentations-and-publications">
       <div>
         <h2 class="row-margin h2-sub"> ACHIEVEMENTS </h2>
         <h2 class="row-margin">Publications</h2>

@@ -7,6 +7,15 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   base: import.meta.env.BASE_URL,
+  scrollBehavior(to, from, savedPosition) {
+    console.log("scrollBehavior", {to, from, savedPosition});
+    if (to.hash) {
+      return {
+        selector: to.hash,
+        behavior: 'smooth'
+      }
+    }
+  },
   routes: [
     {
       path: '/',
