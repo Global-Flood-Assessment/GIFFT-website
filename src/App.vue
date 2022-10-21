@@ -5,9 +5,12 @@ import HomeView from "./views/HomeView.vue";
 export default {
   components: {HomeView},
   mounted() {
-    this.$el.outerHTML = this.$el.outerHTML
-        .replaceAll(/DisasterAWARE/g, "<a href='https://www.pdc.org/disasteraware/'>DisasterAWARE</a>")
-        .replaceAll(/PDC/g, "<a href='https://www.pdc.org/'>PDC</a>");
+    const paragraphs = this.$el.querySelectorAll('p');
+    paragraphs.forEach(paragraph => {
+      paragraph.innerHTML = paragraph.innerHTML
+          .replaceAll(/DisasterAWARE/g, "<a href='https://www.pdc.org/disasteraware/'>DisasterAWARE</a>")
+          .replaceAll(/PDC/g, "<a href='https://www.pdc.org/'>PDC</a>");
+    });
   }
 }
 </script>

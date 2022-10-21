@@ -11,8 +11,6 @@
       <router-link to="#section-presentations-and-publications" v-slot="{navigate}">
         <b-button size="sm" variant="link" @click="navigate">Presentations and Publication</b-button>
       </router-link>
-
-      <b-button size="sm" variant="link">Outputs for specific events</b-button>
     </b-navbar-nav>
   </b-navbar>
 </template>
