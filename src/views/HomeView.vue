@@ -22,7 +22,7 @@ export default {
       contributors: [
         {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: TM_Glasscoe_Margaret},
         {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: TM_Bausch_Doug},
-        {name: "Bandana Kar", organization: "Oak Ridge National Laboratory", avatarUrl: TM_Kar_Bandana},
+        {name: "Bandana Kar", organization: "AAAS Science, Technology and Policy Fellow at Department of Energy", avatarUrl: TM_Kar_Bandana},
         {name: "Marlon Pierce", organization: "Indiana University", avatarUrl: TM_Pierce_Marlon},
 
         {name: "Jun Wang", organization: "Indiana University", avatarUrl: TM_Wang_Jun},
