@@ -20,24 +20,71 @@ export default {
   data() {
     return {
       contributors: [
-        {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: TM_Glasscoe_Margaret},
-        {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: TM_Bausch_Doug},
+        {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: TM_Glasscoe_Margaret, role: "PI"},
+        {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: TM_Bausch_Doug, role: "MoM"},
         {
           name: "Bandana Kar",
           organization: "AAAS Science, Technology and Policy Fellow at Department of Energy",
-          avatarUrl: TM_Kar_Bandana
+          avatarUrl: TM_Kar_Bandana, role: "MoM"
         },
-        {name: "Marlon Pierce", organization: "Indiana University", avatarUrl: TM_Pierce_Marlon},
+        {name: "Marlon Pierce", organization: "Indiana University", avatarUrl: TM_Pierce_Marlon, role: "MoM"},
 
-        {name: "Jun Wang", organization: "Indiana University", avatarUrl: TM_Wang_Jun},
-        {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: TM_Schumann_Guy},
-        {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: TM_Hampe_Greg},
-        {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: TM_Chiesa_Chris},
+        {name: "Jun Wang", organization: "Indiana University", avatarUrl: TM_Wang_Jun, role: "MoM"},
+        {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: TM_Schumann_Guy, role: "MoM"},
+        {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: TM_Hampe_Greg, role: "PDC"},
+        {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: TM_Chiesa_Chris, role: "PDC"},
 
-        {name: "Kristy Tiampo", organization: "University of Colorado, Boulder", avatarUrl: TM_Tiampo_Kristy},
-        {name: "ZhiQiang Chen", organization: "University of Missouri-Kansas City", avatarUrl: TM_Chen_ZQ},
-        {name: "Charlie Huyck", organization: "ImageCat Inc.", avatarUrl: TM_Huyck_Charlie},
-        {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: TM_Eguchi_Ron}
+        {
+          name: "Kristy Tiampo",
+          organization: "University of Colorado, Boulder",
+          avatarUrl: TM_Tiampo_Kristy,
+          role: "Remote Sensing"
+        },
+        {name: "Franz Meyer", organization: "University of Alaska Fairbanks", avatarUrl: null, role: "Remote Sensing"},
+        {
+          name: "Joseph Kennedy",
+          organization: "University of Alaska Fairbanks",
+          avatarUrl: null,
+          role: "Remote Sensing"
+        },
+        {
+          name: "Lori Schultz",
+          organization: "NASA Marshall Space Flight Center",
+          avatarUrl: null,
+          role: "Remote Sensing"
+        },
+        {
+          name: "Alexander Melancon",
+          organization: "University of Alabama in Huntsville",
+          avatarUrl: null,
+          role: "Remote Sensing"
+        },
+        {
+          name: "MinJeong Jo",
+          organization: "NASA Goddard Space Flight Center",
+          avatarUrl: null,
+          role: "Remote Sensing"
+        },
+        {
+          name: "Batuhan Osmanoglu",
+          organization: "NASA Goddard Space Flight Center",
+          avatarUrl: null,
+          role: "Remote Sensing"
+        },
+        {
+          name: "ZhiQiang Chen",
+          organization: "University of Missouri-Kansas City",
+          avatarUrl: TM_Chen_ZQ,
+          role: "Remote Sensing"
+        },
+        {
+          name: "Charlie Huyck",
+          organization: "ImageCat Inc.",
+          avatarUrl: TM_Huyck_Charlie,
+          role: "Infrastructure Exposure"
+        },
+        {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: TM_Eguchi_Ron, role: "Infrastructure Exposure"},
+        {name: "Paul Amyx", organization: "ImageCat Inc.", avatarUrl: null, role: "Infrastructure Exposure"}
       ],
       students: [
         {name: "Dinuka De Silva", organization: "Indiana University", avatarUrl: TM_Dinuka_DeSilva},
@@ -361,13 +408,19 @@ export default {
         <h2 class="row-margin">Contributors</h2>
         <div class="row-margin d-flex flex-row flex-wrap">
           <div v-for="(contributor, contributorIndex) in contributors" :key="contributorIndex"
-               style="width: 250px; height: 300px;padding: 10px;" class="text-center">
+               style="width: 250px; height: 250px;padding: 10px;" class="text-center">
             <div class="contributor-avatar d-inline-block">
               <img v-if="contributor.avatarUrl" class="w-100" :src="contributor.avatarUrl">
               <img v-else class="w-100" src="../assets/Rectangle-7.png">
             </div>
-            <h3 class="text-center">{{ contributor.name }}</h3>
-            <p class="text-center">{{ contributor.organization }}</p>
+            <div class="w-100 text-center">
+              <h3 class="text-center">{{ contributor.name }}</h3>
+              <small class="bg-primary text-light"
+                     style="line-height: 18px;font-size: 12px;padding: 2px 10px;display: inline-block;border-radius: 4px;">{{
+                  contributor.role
+                }}</small>
+              <p class="text-center" style="line-height: 16px;font-size: 13px;">{{ contributor.organization }}</p>
+            </div>
           </div>
         </div>
 
@@ -715,7 +768,7 @@ section.section-6 h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height: 32px;
+  line-height: 15px;
   letter-spacing: 0.03em;
   color: #000000;
   padding-left: 30px;
