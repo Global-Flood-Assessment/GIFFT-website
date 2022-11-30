@@ -22,7 +22,11 @@ export default {
       contributors: [
         {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: TM_Glasscoe_Margaret},
         {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: TM_Bausch_Doug},
-        {name: "Bandana Kar", organization: "AAAS Science, Technology and Policy Fellow at Department of Energy", avatarUrl: TM_Kar_Bandana},
+        {
+          name: "Bandana Kar",
+          organization: "AAAS Science, Technology and Policy Fellow at Department of Energy",
+          avatarUrl: TM_Kar_Bandana
+        },
         {name: "Marlon Pierce", organization: "Indiana University", avatarUrl: TM_Pierce_Marlon},
 
         {name: "Jun Wang", organization: "Indiana University", avatarUrl: TM_Wang_Jun},
@@ -37,7 +41,7 @@ export default {
       ],
       students: [
         {name: "Dinuka De Silva", organization: "Indiana University", avatarUrl: TM_Dinuka_DeSilva},
-        {name: "Molan", organization: "", avatarUrl: null}
+        {name: "Molan Zhang", organization: "University of Missouri Kansas City", avatarUrl: null}
       ],
       alumnus: [
         {name: "Prativa Sharma", organization: "", avatarUrl: null}
@@ -351,33 +355,6 @@ export default {
       </div>
     </section>
 
-    <section class="section-5">
-      <div>
-        <h2 class="row-margin h2-sub"> PROJECT SUPPORT </h2>
-        <h2 class="row-margin">Our Partners</h2>
-        <div class="row-margin d-flex flex-row">
-          <div>
-            <div class="partner-logo">
-              <img class="w-100" src="../assets/image-2.png">
-            </div>
-            <h3>University of Alaska Fairbanks</h3>
-          </div>
-          <div>
-            <div class="partner-logo">
-              <img class="w-100" src="../assets/image-3.png">
-            </div>
-            <h3>Marshall Space Flight Center</h3>
-          </div>
-          <div>
-            <div class="partner-logo">
-              <img class="w-100" src="../assets/image-4.png">
-            </div>
-            <h3>Goddard Space Flight Center</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="section-6" id="section-team">
       <div>
         <h2 class="row-margin h2-sub"> TEAM </h2>
@@ -422,6 +399,63 @@ export default {
             <h3 class="text-center">{{ contributor.name }}</h3>
             <p class="text-center">{{ contributor.organization }}</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-5">
+      <div>
+        <h2 class="row-margin h2-sub"> PROJECT SUPPORT </h2>
+        <h2 class="row-margin">Our Partners</h2>
+        <div class="row-margin d-flex flex-row">
+          <!--          <div>-->
+          <!--            <div class="partner-logo">-->
+          <!--              <img class="w-100" src="../assets/image-2.png">-->
+          <!--            </div>-->
+          <!--            <h3>University of Alaska Fairbanks</h3>-->
+          <!--          </div>-->
+          <!--          <div>-->
+          <!--            <div class="partner-logo">-->
+          <!--              <img class="w-100" src="../assets/image-3.png">-->
+          <!--            </div>-->
+          <!--            <h3>Marshall Space Flight Center</h3>-->
+          <!--          </div>-->
+          <!--          <div>-->
+          <!--            <div class="partner-logo">-->
+          <!--              <img class="w-100" src="../assets/image-4.png">-->
+          <!--            </div>-->
+          <!--            <h3>Goddard Space Flight Center</h3>-->
+          <!--          </div>-->
+
+
+          <div>
+            <div class="partner-logo">
+              <img class="w-100" src="../assets/partners/pdc.svg">
+            </div>
+            <h3>Pacific Disaster Center</h3>
+          </div>
+
+          <div>
+            <div class="partner-logo">
+              <img class="w-100" src="../assets/partners/noaa.png">
+            </div>
+            <h3>National Oceanic and Atmospheric Administration</h3>
+          </div>
+
+          <div>
+            <div class="partner-logo">
+              <img class="w-100" src="../assets/partners/ceos.png">
+            </div>
+            <h3>Committee on Earth Observation Satellites</h3>
+          </div>
+
+          <div>
+            <div class="partner-logo">
+              <img class="w-100" src="../assets/partners/un.png">
+            </div>
+            <h3>United Nations</h3>
+          </div>
+
         </div>
       </div>
     </section>
@@ -669,7 +703,7 @@ section.section-5 h3 {
 }
 
 section.section-5 .partner-logo {
-  height: 300px;
+  height: 150px;
   padding: 20px;
   display: flex;
   flex-direction: row;
