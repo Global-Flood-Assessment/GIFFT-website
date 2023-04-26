@@ -13,6 +13,7 @@ import TM_Dinuka_DeSilva from "../assets/team-members/dinuka_desilva.jpeg"
 import TM_Schumann_Guy from "../assets/team-members/Schumann_Guy.jpg"
 import TM_Tiampo_Kristy from "../assets/team-members/Tiampo_Kristy.jpg"
 import TM_Wang_Jun from "../assets/team-members/Wang_Jun.jpg"
+import TM_Prativa_Sharma from "../assets/team-members/Prativa_Sharma.jpg"
 
 export default {
   name: "HomeView",
@@ -91,7 +92,7 @@ export default {
         {name: "Molan Zhang", organization: "University of Missouri Kansas City", avatarUrl: null}
       ],
       alumnus: [
-        {name: "Prativa Sharma", organization: "", avatarUrl: null}
+        {name: "Prativa Sharma", organization: "University of Missouri Kansas City", avatarUrl: TM_Prativa_Sharma}
       ],
       publications: [
         {
