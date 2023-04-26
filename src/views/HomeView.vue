@@ -15,6 +15,8 @@ import TM_Tiampo_Kristy from "../assets/team-members/Tiampo_Kristy.jpg"
 import TM_Wang_Jun from "../assets/team-members/Wang_Jun.jpg"
 import TM_Prativa_Sharma from "../assets/team-members/Prativa_Sharma.jpg"
 import TM_Zhang_Molan from "../assets/team-members/Zhang_Molan.jpg"
+import TM_Meyer_Franz from "../assets/team-members/Meyer_Franz.jpg"
+import TM_Kennedy_Joseph from "../assets/team-members/Kennedy_Joseph.jpg"
 
 export default {
   name: "HomeView",
@@ -42,11 +44,11 @@ export default {
           avatarUrl: TM_Tiampo_Kristy,
           role: "Remote Sensing"
         },
-        {name: "Franz Meyer", organization: "University of Alaska Fairbanks", avatarUrl: null, role: "Remote Sensing"},
+        {name: "Franz Meyer", organization: "University of Alaska Fairbanks", avatarUrl: TM_Meyer_Franz, role: "Remote Sensing"},
         {
           name: "Joseph Kennedy",
           organization: "University of Alaska Fairbanks",
-          avatarUrl: null,
+          avatarUrl: TM_Kennedy_Joseph,
           role: "Remote Sensing"
         },
         {
