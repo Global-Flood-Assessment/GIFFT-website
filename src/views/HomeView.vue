@@ -17,6 +17,12 @@ import TM_Prativa_Sharma from "../assets/team-members/Prativa_Sharma.jpg"
 import TM_Zhang_Molan from "../assets/team-members/Zhang_Molan.jpg"
 import TM_Meyer_Franz from "../assets/team-members/Meyer_Franz.jpg"
 import TM_Kennedy_Joseph from "../assets/team-members/Kennedy_Joseph.jpg"
+import TM_Schultz_Lori from "../assets/team-members/Schultz_Lori.jpg"
+import TM_Melancon_Alexander from "../assets/team-members/Melancon_Alexander.jpg"
+import TM_Jo_MinJeong from "../assets/team-members/Jo_MinJeong.jpg"
+import TM_Osmanoglu_Batuhan from "../assets/team-members/Osmanoglu_Batuhan.jpg"
+import TM_Amyx_Paul from "../assets/team-members/Amyx_Paul.jpg"
+import TM_Mendoza_Marina from "../assets/team-members/Mendoza_Marina.jpg"
 
 export default {
   name: "HomeView",
@@ -24,11 +30,12 @@ export default {
   data() {
     return {
       contributors: [
-        {name: "Margaret Glasscoe", organization: "(UAH)", avatarUrl: TM_Glasscoe_Margaret, role: "PI"},
+        {name: "Margaret Glasscoe", organization: "University of Alabama in Huntsville", avatarUrl: TM_Glasscoe_Margaret, role: "PI"},
         {name: "Doug Bausch", organization: "Niyam IT/PDC", avatarUrl: TM_Bausch_Doug, role: "MoM"},
         {
           name: "Bandana Kar",
-          organization: "AAAS Science, Technology and Policy Fellow at Department of Energy",
+          //organization: "AAAS Science, Technology and Policy Fellow at Department of Energy",
+          organization: "Department of Energy",
           avatarUrl: TM_Kar_Bandana, role: "MoM"
         },
         {name: "Marlon Pierce", organization: "Indiana University", avatarUrl: TM_Pierce_Marlon, role: "MoM"},
@@ -54,25 +61,25 @@ export default {
         {
           name: "Lori Schultz",
           organization: "NASA Marshall Space Flight Center",
-          avatarUrl: null,
+          avatarUrl: TM_Schultz_Lori,
           role: "Remote Sensing"
         },
         {
           name: "Alexander Melancon",
           organization: "University of Alabama in Huntsville",
-          avatarUrl: null,
+          avatarUrl: TM_Melancon_Alexander,
           role: "Remote Sensing"
         },
         {
           name: "MinJeong Jo",
           organization: "NASA Goddard Space Flight Center",
-          avatarUrl: null,
+          avatarUrl: TM_Jo_MinJeong,
           role: "Remote Sensing"
         },
         {
           name: "Batuhan Osmanoglu",
           organization: "NASA Goddard Space Flight Center",
-          avatarUrl: null,
+          avatarUrl: TM_Osmanoglu_Batuhan,
           role: "Remote Sensing"
         },
         {
@@ -88,7 +95,8 @@ export default {
           role: "Infrastructure Exposure"
         },
         {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: TM_Eguchi_Ron, role: "Infrastructure Exposure"},
-        {name: "Paul Amyx", organization: "ImageCat Inc.", avatarUrl: null, role: "Infrastructure Exposure"}
+        {name: "Paul Amyx", organization: "ImageCat Inc.", avatarUrl: TM_Amyx_Paul, role: "Infrastructure Exposure"},
+        {name: "Marina Mendoza", organization: "ImageCat Inc.", avatarUrl: TM_Mendoza_Marina, role: "Infrastructure Exposure"}
       ],
       students: [
         {name: "Dinuka De Silva", organization: "Indiana University", avatarUrl: TM_Dinuka_DeSilva},
