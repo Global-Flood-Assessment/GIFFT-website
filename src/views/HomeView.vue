@@ -375,7 +375,7 @@ export default {
     <section class="section-4">
       <div>
         <h2 class="row-margin h2-sub"> BENEFITS </h2>
-        <h2 class="row-margin">Impacts of the Global Flood map</h2>
+        <h2 class="row-margin">Impacts of the Global Flood Map</h2>
         <div class="row-margin d-flex flex-row">
           <div>
             <div class="benefit-icon">
