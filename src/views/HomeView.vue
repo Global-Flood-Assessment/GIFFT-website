@@ -403,6 +403,15 @@ export default {
             The system is currently being tested using hurricane event data as input. The plan is to expand this to flood events using products derived from the Model of Models process, with eventual dissemination of GEDI results through PDC. 
             </p>
       </div>
+      <div>
+        <h2 class="row-margin">DisasterAWARE<sup>®</sup></h2>
+            <p class="row-margin"><b-icon icon="star-fill"/>        
+            Currently, PDC’s <strong>DisasterAWARE</strong> platform incorporates <strong>Model of Models (MoM)</strong> outputs as flood “incidents,” visually depicting potential floods in the context of population and infrastructure that may become affected. Automated procedures have been developed to categorize MoM outputs as DisasterAWARE “hazards,” allowing for their dissemination to users along with other flood products that assess potential impacts.
+            </p>
+            <p class="row-margin"><b-icon icon="star-fill"/>
+              PDC’s stakeholders include UN, DoD, FEMA and their equivalents around the world.  Additionally, the DisasterAWARE platform has 2 million users worldwide and is a fully functional and sustained platform used to disseminate alerts and analytical products for 18 different hazard types.  
+            </p>        
+      </div>
     </section>
     <section class="section-4">
       <div>
