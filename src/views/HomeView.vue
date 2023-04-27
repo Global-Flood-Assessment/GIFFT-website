@@ -241,6 +241,11 @@ export default {
       ],
       posters: [
         {
+          title: `Glasscoe, M. T., Kar, B., Meyer, F. J., Tiampo, K. F., Pierce, M. E., Huyck, C. K., Chiesa, C., Hampe, G., Osmanoglu, B., Schultz, L. A. (2022). Dissemination of Global Flood Information Through NASA Disasters Program Global Initiative for Flood Forecasting and Alerting (GIFFT). AGU Fall Meeting 2022. https://ui.adsabs.harvard.edu/abs/2022AGUFMIN45D0395G`,
+          pdf: "documents/Glasscoe_AGU_2022.pdf",
+          year: "2022"
+        },
+        {
           title: `Ghosh, S., Huyck, C., Eguchi, R., Glasscoe, M., Kar, B., Tiampo, K., Chen, Z. and Bausch, D. 2020. “Earth Observation (EO) Based Critical Infrastructure Exposure Models and Flood Forecasting Techniques for Risk Monitoring and Management for the City of Vadodara, India”, AGU.`,
           pdf: null,
           year: "2020"
