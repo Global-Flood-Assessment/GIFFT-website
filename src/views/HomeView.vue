@@ -42,6 +42,7 @@ export default {
 
         {name: "Jun Wang", organization: "Indiana University", avatarUrl: TM_Wang_Jun, role: "MoM"},
         {name: "Guy Schumann", organization: "ImageCat Inc.", avatarUrl: TM_Schumann_Guy, role: "MoM"},
+        {name: "Marina Mendoza", organization: "ImageCat Inc.", avatarUrl: TM_Mendoza_Marina, role: "MoM"},
         {name: "Greg Hampe", organization: "University of Hawaii/PDC", avatarUrl: TM_Hampe_Greg, role: "PDC"},
         {name: "Chris Chiesa", organization: "University of Hawaii/PDC", avatarUrl: TM_Chiesa_Chris, role: "PDC"},
 
@@ -96,7 +97,6 @@ export default {
         },
         {name: "Ron Eguchi", organization: "ImageCat Inc.", avatarUrl: TM_Eguchi_Ron, role: "Infrastructure Exposure"},
         {name: "Paul Amyx", organization: "ImageCat Inc.", avatarUrl: TM_Amyx_Paul, role: "Infrastructure Exposure"},
-        {name: "Marina Mendoza", organization: "ImageCat Inc.", avatarUrl: TM_Mendoza_Marina, role: "Infrastructure Exposure"}
       ],
       students: [
         {name: "Dinuka De Silva", organization: "Indiana University", avatarUrl: TM_Dinuka_DeSilva},
@@ -315,7 +315,7 @@ export default {
     <section class="section-3">
       <div>
         <h2 class="row-margin h2-sub"> APPROACH </h2>
-        <h2 class="row-margin"> Model-of-models approach </h2>
+        <h2 class="row-margin"> Model-of-models</h2>
         <p class="row-margin">
           The model-of-models approach combines various flood products from open-source hydrologic models and Earth
           Observation data to determine flood severity risk at sub-watershed level daily and globally. In the current
@@ -386,6 +386,21 @@ export default {
             Triggering of SAR flood extent product generation will use event information provided by MoM severity alerts from PDC 
             </p><p class="row-margin"><b-icon icon="star-fill"/>
             Currently SAR-based surface water extent algorithms are fully implemented and validated in cloud-based platforms 
+            </p>
+      </div>
+      <div>
+        <h2 class="row-margin"> Infrastructure and Exposure – The Global Economic Disruption Index</h2>
+            <p class="row-margin"><b-icon icon="star-fill"/>        
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+            The <strong>GEDI</strong> scale is designed to provide simplified qualitative estimates of the severity of a disaster with regards to the global economy. 
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+            <strong>Global economic exposure data</strong> is first generated using classification of various EO datasets to detect areas of critical infrastructure (CI) or industrial activity. The detected areas are assigned economic value based on a global economic input/output model. 
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+            <strong>Real-time disaster data</strong> is then applied to the exposure to estimate economic impact, and the result is aggregated to a regional level. 
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+            The GEDI score for the disaster is calculated by comparing the pre-event and post-event values for these regional aggregates. 
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+            The system is currently being tested using hurricane event data as input. The plan is to expand this to flood events using products derived from the Model of Models process, with eventual dissemination of GEDI results through PDC. 
             </p>
       </div>
     </section>
