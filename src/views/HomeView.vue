@@ -395,13 +395,12 @@ export default {
       </div>
       <div>
         <h2 class="row-margin"> Infrastructure and Exposure – The Global Economic Disruption Index</h2>
-            <p class="row-margin"><b-icon icon="star-fill"/>        
-            </p><p class="row-margin"><b-icon icon="star-fill"/>
+            <p class="row-margin"><b-icon icon="star-fill"/>
             The <strong>GEDI</strong> scale is designed to provide simplified qualitative estimates of the severity of a disaster with regards to the global economy. 
             </p><p class="row-margin"><b-icon icon="star-fill"/>
-            <strong>Global economic exposure data</strong> is first generated using classification of various EO datasets to detect areas of critical infrastructure (CI) or industrial activity. The detected areas are assigned economic value based on a global economic input/output model. 
+            <strong> Global economic exposure data</strong> is first generated using classification of various EO datasets to detect areas of critical infrastructure (CI) or industrial activity. The detected areas are assigned economic value based on a global economic input/output model. 
             </p><p class="row-margin"><b-icon icon="star-fill"/>
-            <strong>Real-time disaster data</strong> is then applied to the exposure to estimate economic impact, and the result is aggregated to a regional level. 
+            <strong> Real-time disaster data</strong> is then applied to the exposure to estimate economic impact, and the result is aggregated to a regional level. 
             </p><p class="row-margin"><b-icon icon="star-fill"/>
             The GEDI score for the disaster is calculated by comparing the pre-event and post-event values for these regional aggregates. 
             </p><p class="row-margin"><b-icon icon="star-fill"/>
