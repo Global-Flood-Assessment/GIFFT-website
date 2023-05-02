@@ -394,6 +394,20 @@ export default {
             </p>
       </div>
       <div>
+        <h2 class="row-margin"> Optical Remote Sensing for flood severity and damage mapping </h2>
+            <p class="row-margin"><b-icon icon="star-fill"/>        
+              MoM triggered application of optical remote sensing for global flood severity and built environment damage identification and mapping.
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+              Operation ready pre-flood water body and built-environment classification and mapping using Sentinel-2 images.
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+              Development of <strong>pixel-level machine learning</strong> of flood water for rapid flood severity mapping and online gateway.
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+              Development of deep metric learning of built objects (buildings and other civil infrastructure categories) detection.
+            </p><p class="row-margin"><b-icon icon="star-fill"/>
+              <strong> Large-scale machine vision models</strong> for complex built environment learning, segmentation, and mapping.
+            </p>
+      </div>
+      <div>
         <h2 class="row-margin"> Infrastructure and Exposure – The Global Economic Disruption Index</h2>
             <p class="row-margin"><b-icon icon="star-fill"/>
             The <strong>GEDI</strong> scale is designed to provide simplified qualitative estimates of the severity of a disaster with regards to the global economy. 
