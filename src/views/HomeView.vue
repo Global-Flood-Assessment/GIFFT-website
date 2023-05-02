@@ -394,7 +394,7 @@ export default {
             </p>
       </div>
       <div>
-        <h2 class="row-margin"> Optical Remote Sensing for flood severity and damage mapping </h2>
+        <h2 class="row-margin"> Optical Remote Sensing for Flood Severity and Damage Mapping </h2>
             <p class="row-margin"><b-icon icon="star-fill"/>        
               MoM triggered application of optical remote sensing for global flood severity and built environment damage identification and mapping.
             </p><p class="row-margin"><b-icon icon="star-fill"/>
