@@ -590,11 +590,11 @@ export default {
         <h2 class="row-margin">Publications</h2>
         <div class="row-margin d-flex flex-column">
           <div v-for="(publication, publicationIndex) in publications" :key="publicationIndex">
-            <p><small>{{ publication.title }}
+            <p>{{ publication.title }}
               <b-link :href="publication.pdf" v-if="publication.pdf">
                 <b-icon icon="file-earmark-pdf-fill"/>
               </b-link>
-            </small></p>
+            </p>
           </div>
         </div>
       </div>
@@ -606,11 +606,11 @@ export default {
         <h2 class="row-margin">Presentations</h2>
         <div class="row-margin d-flex flex-column">
           <div v-for="(presentation, presentationIndex) in presentations" :key="presentationIndex">
-            <p><small>{{ presentation.title }}
+            <p>{{ presentation.title }}
               <b-link :href="presentation.pdf" v-if="presentation.pdf">
                 <b-icon icon="file-earmark-pdf-fill"/>
               </b-link>
-            </small></p>
+            </p>
           </div>
         </div>
       </div>
@@ -623,11 +623,11 @@ export default {
         <h2 class="row-margin">Posters</h2>
         <div class="row-margin d-flex flex-column">
           <div v-for="(poster, posterIndex) in posters" :key="posterIndex">
-            <p><small>{{ poster.title }}
+            <p>{{ poster.title }}
               <b-link :href="poster.pdf" v-if="poster.pdf">
                 <b-icon icon="file-earmark-pdf-fill"/>
               </b-link>
-            </small></p>
+            </p>
           </div>
         </div>
       </div>
