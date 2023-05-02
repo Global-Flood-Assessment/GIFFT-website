@@ -33,3 +33,6 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### npm version
+tested with lts/hydrogen -> v18.15.0 
