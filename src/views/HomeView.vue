@@ -382,15 +382,15 @@ export default {
           Two techniques will be implemented to determine observed flood information from SAR data:
         </p>
             <p class="row-margin"><b-icon icon="star-fill"/>        
-            <strong> HydroSAR</strong> provides information on post-event flood mapping, flood depth estimation and resulting flood severity, using remote sensing-based flood information derived from SAR. 
+            <strong> HydroSAR</strong> provides information for post-event flood mapping, flood depth estimation, and resulting flood severity using remote sensing-based flood information derived from SAR.
             </p><p class="row-margin"><b-icon icon="star-fill"/>
-            Water depth and extent is also being calculated using <strong>machine learning and thresholding</strong>.  
+              Water depth and extent is also being calculated using a thresholding technique.
             </p><p class="row-margin"><b-icon icon="star-fill"/>
-            The machine learning and threasholding technique and HydroSAR are being compared and cross-validated in GIFFT. 
+              The thresholding technique and HydroSAR are being compared and cross-validated in GIFFT.
             </p><p class="row-margin"><b-icon icon="star-fill"/>
-            Triggering of SAR flood extent product generation will use event information provided by MoM severity alerts from PDC 
+              Triggering of SAR flood extent product generation will use event information provided by MoM severity alerts from PDC. 
             </p><p class="row-margin"><b-icon icon="star-fill"/>
-            Currently SAR-based surface water extent algorithms are fully implemented and validated in cloud-based platforms 
+              Currently SAR-based surface water extent algorithms are fully implemented and validated in cloud-based platforms.
             </p>
       </div>
       <div>
